@@ -10,25 +10,25 @@
 </head>
 <body>
     <header>
-        <h1 aria-label="App Title">Quiz App</h1>
+        <h1>Quiz App</h1>
     </header>
     <main>
-        <section aria-label="Question" class="question-element">
-            <h2 aria-label="Question Formulation">Wann wurde das World Wide Web erfunden?</h2>
-            <p aria-label="Question Answer">Das World Wide Web wurde am 12. März 1989 von Tim Berners-Lee erfunden.</p> <!-- Need to hide -->
+        <section class="question-element">
+            <h2 aria-label="Question">Wann wurde das World Wide Web erfunden?</h2>
             <button aria-label="Show Answer" class="show-answer">Antwort zeigen</button>
-            <ul>
-                <li aria-label="Hashtag">#html</li>
-                <li aria-label="Hashtag">#flexbox</li>
-                <li aria-label="Hashtag">#css</li>
+            <p aria-label="Answer">Das World Wide Web wurde am 12. März 1989 von Tim Berners-Lee erfunden.</p> <!-- Need to hide -->
+            <ul aria-label="Hashtags">
+                <li>#html</li>
+                <li>#flexbox</li>
+                <li>#css</li>
             </ul>
-            <button aria-label="Bookmark" class="bookmark"><img src="assets/img/no-bookmark.svg" alt="Bookmark Icon" width="16px" height="16px" /></button>
+            <button aria-label="Bookmark" class="bookmark"><img src="assets/img/no-bookmark.svg" alt="Bookmark Icon" width="16px" height="16px" /></button> <!-- TODO: Set width and height in css -->
         </section>
     </main>
     <nav>
-        <a aria-label="To Home" href="#">Home</a>
-        <a aria-label="To Bookmarked" href="#">Bookmarked</a>
-        <a aria-label="To Profile" href="#">Profile</a>
+        <a href="#">Home</a>
+        <a href="#">Bookmarked</a>
+        <a href="#">Profile</a>
     </nav>
 </body>
 </html>
