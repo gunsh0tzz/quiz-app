@@ -1,0 +1,44 @@
+.question {
+    background-color: var(--dark-secondary);
+    border-radius: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    position: relative;
+}
+
+.question ul {
+    list-style: none;
+    align-self: flex-start;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.question ul li {
+    background-color: var(--dark-primary);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.question .bookmark {
+    border: 5px solid var(--dark-secondary);
+    border-radius: 100%;
+    background-color: white;
+    padding: 1rem;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(1rem, -1rem);
+    transition: transform 0.25s;
+}
+
+.question .bookmark:hover {
+    transform: scale(1.1) translate(1rem, -1rem);
+}
+
+/*----------*/

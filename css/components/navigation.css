@@ -1,0 +1,24 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--dark-secondary);
+}
+
+/*----------*/
+
+nav a {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: var(--light-primary);
+}
+
+/*----------*/
