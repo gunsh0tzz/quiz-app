@@ -1,0 +1,28 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    background-color: var(--secondary-dark);
+}
+
+/*----------*/
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation__item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem 0rem;
+    border-bottom: 0.25rem solid var(--secondary-dark);
+}
+
+.navigation__item:hover {
+    /* background-color: var(--third-dark); */
+    border-bottom: 0.25rem solid var(--vsc-blue);
+}
+
+/*----------*/

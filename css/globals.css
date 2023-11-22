@@ -8,6 +8,8 @@
     --secondary-dark: rgba(37,37,38,1);
     --third-dark: rgba(45,45,48,1);
     --fourth-dark: rgba(62,62,66);
+
+    --default-font-color: rgba(255,255,255,1);
 }
 
 /*----------*/
@@ -19,11 +21,13 @@
 
 body {
     font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--default-font-color);
 }
 
 a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--default-font-color);
 }
 
 /*----------*/
@@ -34,3 +38,14 @@ a {
 }
 
 /*----------*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+button {
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+}
