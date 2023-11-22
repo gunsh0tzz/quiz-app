@@ -44,4 +44,9 @@
 .question .bookmarked {
     background-color: var(--white);
 }
+
+.question .answer {
+    display: none;
+}
+
 /*----------*/
