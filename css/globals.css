@@ -1,0 +1,29 @@
+:root {
+    --black: rgba(0,0,0,1);
+    --white: rgba(255,255,255,1);
+}
+
+/*----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/*----------*/
+/* DEBUG/DEV PURPOSE */
+
+.debug {
+    border: 1px dashed rgba(255,0,0,1);
+}
+
+/*----------*/
