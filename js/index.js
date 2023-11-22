@@ -17,8 +17,6 @@ bookmarkButton.addEventListener("click",() => {
 });
 
 answerButton.addEventListener("click", () => {
-    // answer.classList.remove("answer");
-    // console.log("answer button got clicked!");
 
     if(!answer.classList.contains("answer")) {
         answer.classList.add("answer");
