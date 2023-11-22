@@ -1,0 +1,46 @@
+:root {
+    --dark-primary: rgb(18,18,18);
+    --dark-secondary: rgb(33,33,33);
+
+    --light-primary: rgb(83,83,83);
+    --light-secondary: rgb(179,179,179);
+
+    --lightgreen: rgb(29,185,84);
+
+    --main-font-color: rgb(240,240,240,1);
+}
+
+/*----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--dark-primary);
+    color: var(--main-font-color);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*----------*/
+
+main {
+    padding: 5rem 20rem 0rem 20rem;
+}
+
+/*----------*/
+
+/* DEBUG / DEV PURPOSE */
+
+.debug {
+    border: 1px dashed red;
+}
+
+/*----------*/
