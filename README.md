@@ -1,6 +1,6 @@
 # Quiz App
 
-The quiz app is a recap project in which I am gradually implementing the content I learned during my further training in web development.
+The quiz app is a recap project in which I am gradually implementing the content I learned during my further training in web development @ [Neue Fische](https://github.com/neuefische).
 
 ## Tech Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
