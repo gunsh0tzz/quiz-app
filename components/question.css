@@ -71,3 +71,7 @@
 .hide-answer {
     display: none;
 }
+
+.bookmarked {
+    display: inline-block;
+}
