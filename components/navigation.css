@@ -4,6 +4,8 @@ nav {
     width: 100%;
 
     background-color: var(--secondary-dark);
+
+    box-shadow: 0rem 0rem 0.75rem var(--vsc-blue);
 }
 
 /*----------*/
@@ -17,12 +19,16 @@ nav {
     flex: 1;
     text-align: center;
     padding: 1rem 0rem;
-    border-bottom: 0.25rem solid var(--secondary-dark);
+    border-bottom: 0.125rem solid var(--secondary-dark);
 }
 
 .navigation__item:hover {
     /* background-color: var(--third-dark); */
-    border-bottom: 0.25rem solid var(--vsc-blue);
+    border-bottom: 0.125rem solid var(--vsc-blue);
+}
+
+.navigation__item__active {
+    border-bottom: 0.125rem solid var(--vsc-blue);
 }
 
 /*----------*/
