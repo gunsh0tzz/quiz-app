@@ -1,0 +1,7 @@
+header {
+    background-color: var(--secondary-dark);
+    text-align: center;
+    padding: 1rem;
+
+    box-shadow: 0rem 0rem 0.75rem var(--vsc-blue);
+}
