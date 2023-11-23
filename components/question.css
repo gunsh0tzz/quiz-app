@@ -1,6 +1,7 @@
 .question {
     background-color: var(--third-dark);
-    padding: 1rem 15rem;
+    padding: 1rem 0rem;
+    min-width: 50rem;
     border-radius: 0.25rem;
 
     display: flex;
